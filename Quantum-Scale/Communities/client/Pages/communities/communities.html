@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>Quantum Scale</title>
+	<link rel="stylesheet" href="/Quantum-Scale/Communities/client/css/styles.css">
+</head>
+<body id="body">	
+	<header class="header">
+		<h1 id="community-name"></h1>
+	</header>
+	<main>
+		<div id="community-layout">
+		<section class="tabs">
+			<h1>Tabs</h1>
+			<div class="tabs-list">
+	           <li><a>Welcome</a></li>
+		   <li><a>Courses</a></li>
+		        </div>
+		</section>
+		<section class="active-tab">
+			<h1>Active-Tab</h1>
+			<div class="post">
+				<h5 id="post-date"></h5>
+		        <h1 id="post-title"></h1>
+		        <h2 id="post-author"></h2>
+                <h3 id="post-content"></h3>
+        	<!--<div class="comment section">
+              <li class="comment"></li> 
+			</div>-->
+			</div>
+		</section>
+		<section class="upcoming-webinars">
+			<h1>Upcoming Webinar</h1>
+			<label class="upcoming-webinars-label">No upcoming webinars</label>
+		</section>
+		<section class="create-post">
+			<h1 class="create-post-title">Create Post</h1>
+			<div class="input-button">
+				<input class="input" placeholder="Enter your thoughts"/>
+				<button class="button" id="uploadBtn" onclick="createPostPopUp()">Upload</button>
+			<button class="button">Send</button>
+			</div>
+		</section>
+		</div>
+	</main>
+<script src="communities.js"></script>
+</body>
+</html>
