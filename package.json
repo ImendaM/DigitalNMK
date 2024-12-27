@@ -1,0 +1,26 @@
+{
+  "name": "quantum-scale",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "communities.js",
+  "dependencies": {
+    "whatwg-url": "^13.0.0",
+    "sparse-bitfield": "^3.0.3",
+    "webidl-conversions": "^7.0.0",
+    "tr46": "^4.1.1",
+    "mongodb-connection-string-url": "^3.0.1",
+    "bson": "^6.10.1",
+    "node-bin-setup": "^1.1.3",
+    "punycode": "^2.3.1",
+    "mongodb": "^6.12.0",
+    "memory-pager": "^1.5.0",
+    "node": "^23.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
